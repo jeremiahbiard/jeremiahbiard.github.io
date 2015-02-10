@@ -1,29 +1,73 @@
 <!DOCTYPE html>
   <head>
     <link href="/stylesheets/normalize.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Londrina+Sketch'
+          rel='stylesheet' type='text/css'>
       <style>
+        body {
+          margin: 0 auto;
+          max-width: 600px;
+          background: #232323;
+        }
+
         header {
           text-align: center;
-          background: rgba(64, 64, 64, 1);
           color: rgba(127, 127, 127, 1);
         }
+
         h1 {
           font-size: 70px;
-          font-style: Helvetica;
+          font-family: 'Londrina Sketch', cursive;
+          color: #aaaaaa;
+          margin: 60px 0 0 0;
         }
+
+        h2 {
+          color: #bbbbbb;
+          margin: 0, 0, 70, 0;
+        }
+
         ul {
           padding: 10px;
           background: rgba(0, 0, 0, 0.5);
         }
+
         li {
           display: inline;
           padding: 0px 10px 0px 10px;
         }
+
         article {
           max-width: 500px;
           padding: 20px;
           margin: 0 auto;
         }
+
+        @media (max-width: 500px) {
+          h1 {
+            font-size: 50px;
+            margin: 20px 0 0 0;
+            line-height: 40px;
+          }
+          
+          h2 {
+            font-size: 20px;
+            margin: 20px 0 30px 0;
+          }
+          
+          div {
+            margin: 20px 12px 0 12px;
+          }
+
+          p {
+            font-size: 20px;
+            line-height: 24px;
+          }
+
+          small {
+            font-size: 16px;
+          }
+
       </style>
     <title>
       Jeremiah Biard
@@ -32,11 +76,13 @@
   <body>
     <header>
       <h1>Jeremiah's Portfolio</h1>
+      <h2>I write code.</h2>
       <ul>
         <li><a href="#">About Me</a></li>
         <li><a href="#">Projects</a></li>
       </ul>
     </header>
     <article>
+    </article>
   </body>
   </html>
